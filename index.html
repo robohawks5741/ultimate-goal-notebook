@@ -228,7 +228,7 @@ foreignObject[data-mjx-xml] {
                                 <p>Write autonomous code for the robot to identify the size of the Starter Stack (test with Skystones until the Ultimate Goal SDK is released), drive to the appropriate target zone, and park on the launch line.</p>
                                 <p>The code will be stored in the following Github repository:</p>
                                 <div style="display: flex">
-                <a class="web-bookmark" href="https://github.com/isaackrementsov/ultimate-goal" style="background-image: url(static/img/bookmark/bg_d3764b08-105f-475b-9080-acd8ef57ddfa.jpg)">
+                <a class="web-bookmark" href="https://github.com/isaackrementsov/ultimate-goal" style="background-image: url(/static/img/bookmark/bg_d3764b08-105f-475b-9080-acd8ef57ddfa.jpg)">
                     <p>
                         <span class="bookmark-title">isaackrementsov/ultimate-goal</span>
                         <span class="bookmark-description">This repository contains the public FTC SDK for the SKYSTONE (201..</span>
@@ -245,6 +245,17 @@ foreignObject[data-mjx-xml] {
                                     <a>Wolfie Davis</a>
                             </div>
                                 <p>To make a mechanism that will allow a tape measure to be extended and retracted via a DC motor. The mechanism should allow the tape measure to be moved accurately while at a reasonably fast speed. It should also be able to mounted on a servo block, so that the tilt of the tape measure can be controlled via a servo. The primary function of this device will be a possible way to intake rings (pull them towards the robot), but it should be designed so that it's use is not limited to only this function.</p>
+                            <hr>
+                            <h2>Arduino Car Project</h2>
+                            <div class="users type">
+                                    <a style="background-color: #E1BEE7">Public Relations</a>
+                            </div>
+                            <div class="users">
+                                    <a>Cailean Sorce</a>
+                                    <a>Eva Joly</a>
+                                    <a>Isaac Krementsov</a>
+                            </div>
+                                <p>To design a simple robot that can be used to teach upcoming team members the skills they will need to contribute to the team in future years. The robot should be inexpensive enough to buy a kit for each prospective team member (&lt;$20/bot), and should be as accessible as possible; ideally, most of the work involved in building the bot should be able to be done from home (on a school issued Chromebook)</p>
                     </div>
                 </div>
             </div>
@@ -254,6 +265,149 @@ foreignObject[data-mjx-xml] {
             </div>
             <div class="row">
                 <div class="central-col col-md-12">
+                            <div class="card">
+                                <h1 id="entries-starting08_22_2020">08/22/2020</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Not Started
+                                            →
+                                            Ideation
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>In a meeting between the senior team members, a basic outline on the bot was discussed. </p>
+                                            <h3>Takeaways</h3>
+                                                <p>We quickly decided that it should be Arduino based, as the Arduino platform is easy to use, is well documented, has plenty of community support, and is relatively inexpensive. We also decided that it should be a simple two wheel tank drive chassis, with a skid in place of more wheels, as that is a straight forward control platform, ideal for use as an introduction to robotics. </p>
+                                            <h3>Plans</h3>
+                                                <p>I (Cailean) have been tasked with creating a prototype of the bot, as I am already very familiar with Arduinos and similar microcontroller systems</p>
+                            </div>
+                            <div class="card">
+                                <h1 id="entries-starting08_28_2020">08/28/2020</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Ideation
+                                            →
+                                            Prototyping
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>I have made a simple prototype of the bot, pictured bellow. I used a ESP8266 microcontroller, which has built in WiFi, allowing me to control the bots from a web browser, and servos (modified for continuous rotation) in place of wheel motors, as no transistors or H-bridges were needed to drive them.</p>
+                                                <div class="column-list"><div class="column"><div style="display: flex">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-5fPHhKfuRvIuq1BfCeVKK9-qUU-LszU/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_9b11aced-bd72-429f-9b6b-c9df05609a3d.jpg)">
+                    <p>
+                        <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_4274.JPG</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 6 months ago</span>
+                    </p>
+                </a>
+            </div></div><div class="column"><div style="display: flex">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VA4wyDzoOdMy_TWwWYNrX7_IxCNX0mrQ/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_ff2e294e-37b0-4c4f-8542-7c12e7dec912.jpg)">
+                    <p>
+                        <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_4272.MOV</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 6 months ago</span>
+                    </p>
+                </a>
+            </div></div></div>
+                                            <h3>Takeaways</h3>
+                                                <p>The use of the ESP8266 made the project much more complete (allowing for live control) without increasing the cost. Using servos instead of DC motors for the wheels was also a good choice, as it greatly simplifies the wiring of the bot, making it much more accessible to students with minimal electronic experience.</p>
+                                            <h3>Plans</h3>
+                                                <p>A BOM (bill of materials) will have to be put together to get an exact cost for the bot. I estimate it to be no more then $20. We will also have to look into running the Arduino IDE (used to program the bot) on Chromebooks.</p>
+                            </div>
+                            <div class="card">
+                                <h1 id="entries-starting09_06_2020">09/06/2020</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Prototyping
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>Quite a lot of research has been done as to programming Arduinos from Chromebooks, and no ideal solution has been found. There are several online IDEs, but these are all either on a paid subscription, not compatible with the ESP8266, or not popular enough to be used by someone with no programming experience. The best solution that we found was a way to install the original Arduino IDE on a Chromebook, by way of a Linux VM (virtual machine) offered as a beta Chromebook feature (outlined in the article bellow).  Understandably, the school IT department has blocked the use of this Linux VM, but after contacting them they have offered to enable it for the students who wish to work on the project and don't have another computer to use.</p>
+                                                <div style="display: flex">
+                <a class="web-bookmark" href="https://www.stevencombs.com/arduino/2020/01/20/arduino-on-chromeos.html" style="background-image: url(/static/img/bookmark/bg_a06dedf2-b591-42b6-9bb0-1aa694cc4e3b.jpg)">
+                    <p>
+                        <span class="bookmark-title">HOWTO: Install Arduino IDE on Chrome OS - now with device support!</span>
+                        <span class="bookmark-description">Blog posts and video from Steven as he "COMBS" through the minuti..</span>
+                    </p>
+                </a>
+            </div>
+                                            <h3>Takeaways</h3>
+                                                <p>Although Installing the Arduino on the Linux VM does require some command line work, none of it is to complex, and after it has been installed, it operates just as it would on any other OS.</p>
+                                            <h3>Plans</h3>
+                                                <p>A BOM for the project is nearly complete; once that is finished, we can order kits for the after school robotics club. Documentation for the project also needs to be started.</p>
+                            </div>
+                            <div class="card">
+                                <h1 id="entries-starting09_15_2020">09/15/2020</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Prototyping
+                                            →
+                                            Testing
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>The BOM for the project was completed, and the cost per kit cam out to be ~$14, if purchased in groups of 10, which is even better then expected. Documentation for the project was also started in this google doc:</p>
+                                                <div style="display: flex">
+                <a class="web-bookmark drive-preview" href="https://docs.google.com/document/d/1c9AK44mfxVoKI9ofBHOa0pYF7JMUY8afik1Mgz4r2r8/edit?usp=drivesdk" style="background-image: url(/static/img/drive/bg_6614d642-4111-48cb-895c-e7b68e6e4a38.jpg)">
+                    <p>
+                        <span class="bookmark-title"><img src="static/saved_files/vnd.google-apps.document">ESP8266 "Arduino" Vehicle Project</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                    </p>
+                </a>
+            </div>
+                                                <p>A second "example" version of the car was also built; it uses the same electronics and wheels, but has a laser cut acrylic chassis, which holds everything much better.</p>
+                                            <h3>Takeaways</h3>
+                                                <p>The cost of the project is lower then expected, ensuring we can provide all the prospective team members with a kit.</p>
+                                            <h3>Plans</h3>
+                                                <p>The documentation will have to be completed. A few features will have to be added to the controller web page, such as a "run autonomous" button. the web page and WiFi code will then have to be written into a library so beginner programmers can use it.</p>
+                            </div>
+                            <div class="card">
+                                <h1 id="entries-starting09_25_2020">09/25/2020</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Testing
+                                            →
+                                            Final Design
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>The WiFi code and controller web page code was integrated into a library that students can easily copy and past from git hub (linked bellow) into a .h file to use in their project. The documentation was completed; it includes everything from the basic electronic principles used to the CAD to the programing of the bot, broken into 12 steps over 13 pages.</p>
+                                                <div style="display: flex">
+                <a class="web-bookmark" href="https://github.com/caileansorce/CVURobohawksArduinoVehicle" style="background-image: url(/static/img/bookmark/bg_e2bf3f33-32e4-46e3-8f85-93825b9a2978.jpg)">
+                    <p>
+                        <span class="bookmark-title">caileansorce/CVURobohawksArduinoVehicle</span>
+                        <span class="bookmark-description">Contribute to caileansorce/CVURobohawksArduinoVehicle development..</span>
+                    </p>
+                </a>
+            </div>
+                                            <h3>Takeaways</h3>
+                                                <p>The Project is almost complete, it just needs to have the kinks worked out</p>
+                                            <h3>Plans</h3>
+                                                <p>The project will be tested by using it to teach the after school robotics club. If any issues are found in the documentation or the code, they will be corrected.</p>
+                            </div>
                             <div class="card">
                                 <h1 id="entries-starting10_05_2020">10/05/2020</h1>
                                     <hr>
@@ -312,7 +466,7 @@ foreignObject[data-mjx-xml] {
 "Next Steps" section of the previous entry. The adjusting screw ended up being placed at the back of the tape measure casing, as that placement provided a better place to seat the screw against the tape measure than the bottom, which is where we had originally planned to put it. We also added a triangular plate on the other side of the tape measure to increase the stability of the design and to "sandwich" the tape measure casing between two plates, locking it in place after being adjusted. Pictured bellow is the current design with the added plate and adjusting screw. A hole pattern for a servo block horn was also added to the main plate in order to check for interference between the servo block/screws and the other components of the build.</p>
                                                 <div class="column-list"><div class="column"><img src="static/saved_files/IMG_4313.jpg" height="auto" width="240"></div><div class="column"><img src="static/saved_files/IMG_4314.jpg" height="auto" width="336"></div></div>
                                                 <div class="column-list"><div class="column"><img src="static/saved_files/IMG_4315.jpg" height="auto" width="3264"></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1zZ7OpMOfKdPpBrJ7LUwPUGVAjzYLm-M2/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_4a117354-28dc-49cb-8be8-e779b1c7bc31.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1zZ7OpMOfKdPpBrJ7LUwPUGVAjzYLm-M2/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_4a117354-28dc-49cb-8be8-e779b1c7bc31.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">tape extender v1.mp4</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 4 months ago</span>
@@ -484,7 +638,7 @@ foreignObject[data-mjx-xml] {
                                             <h3>Progress</h3>
                                                 <p>For my first few asynchronous days, I first worked on finding a functioning Notion API. Notion doesn't offer an official one yet, but many developers have looked at their backend and created open source versions. I found one with really good documentation at the Github repository below and began reading through it:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark" href="https://github.com/jamalex/notion-py" style="background-image: url(static/img/bookmark/bg_4876510b-2d32-4371-b322-1f095a6c12a6.jpg)">
+                <a class="web-bookmark" href="https://github.com/jamalex/notion-py" style="background-image: url(/static/img/bookmark/bg_4876510b-2d32-4371-b322-1f095a6c12a6.jpg)">
                     <p>
                         <span class="bookmark-title">jamalex/notion-py</span>
                         <span class="bookmark-description">Unofficial Python 3 client for Notion.so API v3.</span>
@@ -577,7 +731,7 @@ foreignObject[data-mjx-xml] {
                                             <h3>Progress</h3>
                                                 <p>We laser cut the plates out of 1/4" acrylic and replaced the previously used cardboard plates with these new stronger ones. After doing this we were able to more accurately test how well the design works. A video of one of the tests is attached bellow.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1gsfiNm-r5qSaSCA0FGy5oQwDSBjLFozQ/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_ddcf0331-257e-4a9b-8080-05b846c8eb2a.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1gsfiNm-r5qSaSCA0FGy5oQwDSBjLFozQ/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_ddcf0331-257e-4a9b-8080-05b846c8eb2a.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_1927.MOV</span>
                         <span class="bookmark-edited">Last edited by Collin Adams 4 months ago</span>
@@ -613,7 +767,7 @@ foreignObject[data-mjx-xml] {
                                                 <img src="static/saved_files/IMG_4327.jpg" height="auto" width="336">
                                                 <p>Since the second option is simpler to implement than the first, as it does not require any precise positioning if the idler wheel, we decided to work on a prototype of that idea. First we tested the concept by using a long wrench held in place of the idle wheel:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1qTrOJMmqrrwAhnfjH1EP4Su74mAGfLi6/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_80131226-2aeb-4b3c-bc44-eaf3c9f75afe.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1qTrOJMmqrrwAhnfjH1EP4Su74mAGfLi6/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_80131226-2aeb-4b3c-bc44-eaf3c9f75afe.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_1928.MOV</span>
                         <span class="bookmark-edited">Last edited by Collin Adams 4 months ago</span>
@@ -623,7 +777,7 @@ foreignObject[data-mjx-xml] {
                                                 <p>Finding that curving the tape around the drive wheel did in fact maintain enough pressure between the too, we made two cardboard plates to hold a more permanent version of the idler wheel in place. A metal standoff was initially mounted to to plate, but because it did not support the full curve of the tape — only the bottom — it caused the tape to "break" with very little extension. Replacing the standoff with a 3D printed wheel that curved around the tape solved the problem. Unfortunately the center hole in the 3D printed wheel came out smaller than we intended, most likely due to an error made when adjusting the 3D printer tolerances, so we were not able to hold the wheel in with a 6-32 screw as we had intended. As a quick substitute, we used the shaft of an Allen wrench. </p>
                                                 <div class="column-list"><div class="column"><img src="static/saved_files/IMG_4323.jpg" height="auto" width="336"></div><div class="column"><img src="static/saved_files/IMG_4325.jpg" height="auto" width="240"></div></div>
                                                 <div class="column-list"><div class="column"><img src="static/saved_files/IMG_4324.jpg" height="auto" width="3264"></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/14SFKnVgnv1enpbhpv-KTQZHJuDNqm14z/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f6ff1472-a2fe-444a-9e10-04ce3db2d69a.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/14SFKnVgnv1enpbhpv-KTQZHJuDNqm14z/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f6ff1472-a2fe-444a-9e10-04ce3db2d69a.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">Cailean Tape Extender.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 4 months ago</span>
@@ -662,7 +816,7 @@ foreignObject[data-mjx-xml] {
                                             <h3>Progress</h3>
                                                 <p>Today, I worked on creating a screencast to give a quick demonstration of how to use the new engineering notebook (below)</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xyx8xGJ3TsaxicLwh9CtqjLiydc58RYT/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_46342a82-bf48-4efc-95f6-e5444233889d.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xyx8xGJ3TsaxicLwh9CtqjLiydc58RYT/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_46342a82-bf48-4efc-95f6-e5444233889d.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">Engineering Notebook Screencast.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 4 months ago</span>
@@ -742,7 +896,7 @@ foreignObject[data-mjx-xml] {
                                                 <img src="static/saved_files/67439531-8ABD-4E1F-8619-D084E70C965A.jpeg" height="auto" width="4032">
                                                 <img src="static/saved_files/AA8110DB-3D89-43F4-839E-76A93836EA57.jpeg" height="auto" width="4032">
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/11_TnVdJdQ-ol3RA6xvy9NYC6IQqA-b9O/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_26b3b13d-3dab-4a1c-9beb-bf967c7a125b.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/11_TnVdJdQ-ol3RA6xvy9NYC6IQqA-b9O/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_26b3b13d-3dab-4a1c-9beb-bf967c7a125b.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_5114.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 4 months ago</span>
@@ -750,7 +904,7 @@ foreignObject[data-mjx-xml] {
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1DUUFUYSWdC1w_m7HfWqIe3VaKUjelrKz/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_a4c9c4db-d4c9-416f-978f-b16219a2884e.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1DUUFUYSWdC1w_m7HfWqIe3VaKUjelrKz/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_a4c9c4db-d4c9-416f-978f-b16219a2884e.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_5098.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 4 months ago</span>
@@ -854,7 +1008,7 @@ Multiple padded areas and open areas to fall out</p>
                                                 <p>On the 26th, we checked our autonomous code against our original plan and verified that it worked properly. Since we were limited on space while testing, we simulated the tile size at about 10cm instead of 60, allowing us to see the robots movement scaled-down. When we originally ran the code, the robot was not driving as expected. We found this to be an issue with the wiring on the motors, and, once that was fixed, everthing ran smoothly.</p>
                                                 <p>On November 10th, after we finished integrating the new TensorFlow models into our code to detect ring stacks, we tested the robot (still scaled down). Once the phone was mounted high enough on the robot (about 3 inches above the wheels), the starter stack detection worked as expected in all of our tests.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ERKIhN7k-UY2bPe1ituCwn--Qq5FkKJ1/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_8cb85e72-ffc6-4a80-a812-72c74ef57c8b.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ERKIhN7k-UY2bPe1ituCwn--Qq5FkKJ1/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_8cb85e72-ffc6-4a80-a812-72c74ef57c8b.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">Movie 1.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 3 months ago</span>
@@ -1038,7 +1192,7 @@ List<recognition> rings = bot.recognizeAll(<span class="hljs-string">"Single"</s
                                             <h3>Progress</h3>
                                                 <p>I downloaded FTC's SDK 6.0 from their Github page (link below), put our current code in the TeamCode folder, and updated our Github respository's development branch.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark" href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" style="background-image: url(static/img/bookmark/bg_cc53f814-c280-4f4d-b5b1-f44315547f4a.jpg)">
+                <a class="web-bookmark" href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" style="background-image: url(/static/img/bookmark/bg_cc53f814-c280-4f4d-b5b1-f44315547f4a.jpg)">
                     <p>
                         <span class="bookmark-title">FIRST-Tech-Challenge/FtcRobotController</span>
                         <span class="bookmark-description">This repository contains the public FTC SDK for the Ultimate Goal..</span>
@@ -1149,7 +1303,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Plans</h3>
                                                 <p>We are going to design and prototype either a counter weight or use surgical tubing to aide the arm in picking up the wobble goal. If we have time we will also do more testing and driving practice. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/17o0psHAEKKqo4ALEq97xuNa4uTPIjFF4/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_9e114f4d-3e4e-45b1-bb0a-b7d54c025230.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/17o0psHAEKKqo4ALEq97xuNa4uTPIjFF4/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_9e114f4d-3e4e-45b1-bb0a-b7d54c025230.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">wobble goal testing.MOV</span>
                         <span class="bookmark-edited">Last edited by Jared Kennedy 3 months ago</span>
@@ -1218,6 +1372,15 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                     <div class="card new-goals">
                         <h1 id="goals-sprint3">New Goals</h1>
                             <hr>
+                            <h2>Odometry Math/Code</h2>
+                            <div class="users type">
+                                    <a style="background-color: #FFF9C4">Programming</a>
+                            </div>
+                            <div class="users">
+                                    <a>Isaac Krementsov</a>
+                            </div>
+                                <p>Write the code (and learn the math) necessary for a working odometry system. Mechanically, this will consist of three dead encoder wheels to read position. The code will need to use the encoder values to accurately record the robot's x coordinate, y coordinate, and heading.</p>
+                            <hr>
                             <h2>Autonomous Wobble Delivery &amp; Ring Launching</h2>
                             <div class="users type">
                                     <a style="background-color: #FFF9C4">Programming</a>
@@ -1229,15 +1392,6 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                 <li class="list-elem">Deliver the wobble to the correct drop zone, based on starter stack (15 points)</li>
                                 <li class="list-elem">Fire the three pre-loaded rings into the high goal (36 points)</li>
                                 <li class="list-elem">Park over the launch line (5 points)</li>
-                            <hr>
-                            <h2>Odometry Math/Code</h2>
-                            <div class="users type">
-                                    <a style="background-color: #FFF9C4">Programming</a>
-                            </div>
-                            <div class="users">
-                                    <a>Isaac Krementsov</a>
-                            </div>
-                                <p>Write the code (and learn the math) necessary for a working odometry system. Mechanically, this will consist of three dead encoder wheels to read position. The code will need to use the encoder values to accurately record the robot's x coordinate, y coordinate, and heading.</p>
                             <hr>
                             <h2>API v2</h2>
                             <div class="users type">
@@ -1319,7 +1473,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>I (Cailean) put on a new set of rake forks and cross bar, with a new back stop rod placement. The new forks should improve the performance of the rake in two locations; first the new back stop rod placement allows the forks to be folded up on top of the intake mechanism to start, allowing more room for the intake without exceeding the 18" length limit. Second, the spacing of the forks and the deeper side forks should auto center the rings and help to only intake one ring at a time, both of which will help to avoid intake jams. I didn't have any acrylic glue available when I assembled it, so tape was used instead.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1khQL0J9Hw6z0N6PbqzhR1mCaVCG7PXRr/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_895cda1f-75aa-475b-ab1b-2866de29462e.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1khQL0J9Hw6z0N6PbqzhR1mCaVCG7PXRr/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_895cda1f-75aa-475b-ab1b-2866de29462e.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">62743236038__02AA43C2-DE8D-49DE-90DE-7E298A53F634.JPG</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 3 months ago</span>
@@ -1327,7 +1481,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1uVul6mR5LVsrKxkZ3slngaXYHXziy1C7/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_4e868728-52b0-416a-a52d-f9893557b2d8.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1uVul6mR5LVsrKxkZ3slngaXYHXziy1C7/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_4e868728-52b0-416a-a52d-f9893557b2d8.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_4392.JPG</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 3 months ago</span>
@@ -1336,7 +1490,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div>
                                                 <p>I also added a string tensioner to the drive cable, in order to decrease the pully slipping. Since it is only a prototype, I reused a piece of broken acrylic which already had the correct holes. It does not fit within 18", but a finished piece with the same functionality can.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HrRY__Js0VihgGjzWFEvdrSPrgp5AjVi/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f7487fe8-bf0e-48e5-bd08-acaef58d2e3c.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HrRY__Js0VihgGjzWFEvdrSPrgp5AjVi/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f7487fe8-bf0e-48e5-bd08-acaef58d2e3c.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">62785031991__340BE0C2-4336-4778-984B-70EC8EAA9B20.JPG</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 3 months ago</span>
@@ -1365,7 +1519,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We added a pulley for the main out string to decrease friction. This helped increase the rake out speed A LOT.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1qBGjg55rZeyo04fpW1r4VcDY4_x5J5GQ/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_20bc11ec-0471-44e5-b3ec-8a6738713634.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1qBGjg55rZeyo04fpW1r4VcDY4_x5J5GQ/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_20bc11ec-0471-44e5-b3ec-8a6738713634.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_4444.JPG</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 3 months ago</span>
@@ -1394,7 +1548,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>Since the robot was already capable of driving to a drop zone based on the starter stack, my first priority was allowing it to actually drop the wobble. I was able to move the wobble arm as intended, but the sticky-pad claw setup turned out to be basically unusable without a human manually controlling the robot. When driving with the arm collapsed and the wobble in the claw, the wobble would usually fall out. If it managed to stay in, it would remain stuck to the claw when the arm was lowered for delivery. </p>
                                                 <p>After that, I slightly modified the path again and added code for the robot to shoot three pre-loaded rings into the high goal. I had to tweak the final firing location a few times to aim accurately, but I eventually found a position where the robot consistently scored on every shot.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HQhh6Ce_Id4isr1SocSFZuXPwLASAr8c/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f822d3da-dc19-406f-8f00-8893eb4de8e9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HQhh6Ce_Id4isr1SocSFZuXPwLASAr8c/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f822d3da-dc19-406f-8f00-8893eb4de8e9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">autonomous.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 3 months ago</span>
@@ -1419,14 +1573,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Initial brainstorming for the best approach for a new intake was done. We quickly decided that it would be best to have two sets of intake wheels, set up so that the rings go under the first set and over the second set, much like the set up pictured bellow. </p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1MidS-F2szHIpZZQPJHX1MtNnyAvCm0Of/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_dca61467-9317-444e-a5cd-308aa2096e09.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1MidS-F2szHIpZZQPJHX1MtNnyAvCm0Of/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_dca61467-9317-444e-a5cd-308aa2096e09.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6111.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Fn_x6Kxd5CiKNQeZKn6IyfUt8EKsoQWL/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_4edf4c02-b7f3-400e-95db-1128185ab950.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Fn_x6Kxd5CiKNQeZKn6IyfUt8EKsoQWL/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_4edf4c02-b7f3-400e-95db-1128185ab950.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6110.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
@@ -1454,7 +1608,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <div class="column-list"><div class="column"><iframe height="300" width="500" src="static/saved_files/cpdPtN4BDug.html"></iframe></div><div class="column"><iframe height="300" width="500" src="static/saved_files/_T6KHywSP58.html"></iframe></div><div class="column"><iframe height="300" width="500" src="static/saved_files/-EJcpMsWJO4.html"></iframe></div></div>
                                                 <p>Most of the mathematical proofs and formulas I took notes on came from the Aluminum Cobblers' (FTC#5436) guide. Only two parts are currently on YouTube (and the last one was uploaded 7 months ago), but it seems that there was supposed to be a third part explaining odometry with a third wheel not at the exact center of the robot. I couldn't find information on this in any other math tutorials, so I asked for help on Reddit.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark" href="https://www.reddit.com/r/FTC/comments/k4ykpu/odometry_math_with_a_back_wheel/" style="background-image: url(static/img/bookmark/bg_8d440e91-bd2f-4273-a9b0-5d5c918e242c.jpg)">
+                <a class="web-bookmark" href="https://www.reddit.com/r/FTC/comments/k4ykpu/odometry_math_with_a_back_wheel/" style="background-image: url(/static/img/bookmark/bg_8d440e91-bd2f-4273-a9b0-5d5c918e242c.jpg)">
                     <p>
                         <span class="bookmark-title">Odometry Math with a Back Wheel</span>
                         <span class="bookmark-description">Hi all, My team is currently trying to add an odometry system to ..</span>
@@ -1495,7 +1649,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>Create a new plate and assemble with new gears that are less worn out and a plate with the correct demetions.  Also allow cohort two to work on there design for the end of the wobble pick up.  We also need to work on the height and length of posts and how we are mounting it.  </p>
                                                 <img src="static/saved_files/IMG_0580_2.jpg" height="auto" width="4032">
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Y0EBJ-l2VS_LIvEyrVp16P_5WnhgP5PE/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_4c716e89-7ed9-40a6-b3d7-857994012d82.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Y0EBJ-l2VS_LIvEyrVp16P_5WnhgP5PE/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_4c716e89-7ed9-40a6-b3d7-857994012d82.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_0582 2.MOV</span>
                         <span class="bookmark-edited">Last edited by Eva Joly 2 months ago</span>
@@ -1520,7 +1674,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we CADed and laser cut the first version of the intake frame out of corrugated cardboard for testing. Pictured below is the drawings we made to illustrate the basic outline of the intake, as well as the assembled cardboard frame (without the wheels).</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1UiLpw9kAZk9p1PI2MLIt_arF2CM_AUWE/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_121c2b59-783c-423d-863b-814834534c5d.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1UiLpw9kAZk9p1PI2MLIt_arF2CM_AUWE/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_121c2b59-783c-423d-863b-814834534c5d.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_003.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -1530,7 +1684,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>Although the cardboard is to flimsy to mount a motor on, we were able to do preliminary testing of the design by spinning the wheels by hand. the largest issue we found was the side plates prohibiting the top ramp from getting close enough to the wheels to effectively grip a ring. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12sABQUjTouzislA2JN0XwxfGLPIu1rHi/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_53ade4a6-aaf9-473e-868c-17012302828f.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12sABQUjTouzislA2JN0XwxfGLPIu1rHi/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_53ade4a6-aaf9-473e-868c-17012302828f.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_2159.MOV</span>
                         <span class="bookmark-edited">Last edited by Collin Adams 2 months ago</span>
@@ -1554,7 +1708,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today there was the idea of a stop that would hold the rake from coming all the way in after the match has started, as to not break or jam components. To solve this, I (Wolfie) sketched out the idea of a simple spring loaded lever, that once the rake goes out the first time, it slides down and prevents the rake from coming all the way back in.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1m68SiRe-6PUvHz8m1GYSte4_DV66Oy1z/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_2ae78619-00ac-4cce-ba1e-8233d5c1785a.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1m68SiRe-6PUvHz8m1GYSte4_DV66Oy1z/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_2ae78619-00ac-4cce-ba1e-8233d5c1785a.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6109.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
@@ -1641,7 +1795,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We lasered the redesigned intake frame out of stronger corrugated cardboard. As previously discussed, we adjusted the top ramp clearance in the side plates. We also moved the slots (for adjustability) for the bottom ramp from the ramp attachment plates to the side plates to make for a slightly sturdier design. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1MFHJ1IAE92lIhJTy5Y7iOqcM8sLtoTYa/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_17de10dc-74a0-4209-957f-8ba5c4b39f67.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1MFHJ1IAE92lIhJTy5Y7iOqcM8sLtoTYa/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_17de10dc-74a0-4209-957f-8ba5c4b39f67.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -1667,7 +1821,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We lasered out a prototype for the new shooter assembly, which was designed in CAD to connect to the V2 intake:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1pVKIda6HpQ-CCGi6gVO32ghY4FZcmBwQ/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_16971e66-bff3-41bd-bbe4-328bd84b2036.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1pVKIda6HpQ-CCGi6gVO32ghY4FZcmBwQ/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_16971e66-bff3-41bd-bbe4-328bd84b2036.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Shooter_intake V2 assy v66.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -1698,10 +1852,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Plans</h3>
                                                 <p>The top piece needs some adjustments to sizes, and the bottom piece needs to be either 3d printed or bent out of acrylic. The arm might need to be adjusted so both pieces can be mounted correctly.  </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1KVh4y-ejgoS31bMIRZHHEjeFsmmkXau5/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_60559196-b0af-490a-9175-67f61f9ac909.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1KVh4y-ejgoS31bMIRZHHEjeFsmmkXau5/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_60559196-b0af-490a-9175-67f61f9ac909.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">wobble testing part 2.MOV</span>
-                        <span class="bookmark-edited">Last edited by Jared Kennedy 2 months ago</span>
+                        <span class="bookmark-edited">Last edited by Jared Kennedy 3 months ago</span>
                     </p>
                 </a>
             </div>
@@ -1801,10 +1955,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
 }</code></pre>
                                                 <p>Since the odometry wheels are not on the robot yet, I couldn't test this. However, I was able to test a simpler TeleOp OpMode that uses the <code class="inline-snippet">Drivetrain</code> class to drive the robot with a gamepad. This worked as expected, and with no controller delay, meaning that the <code class="inline-snippet">DcMotorX</code>  class works to control DcMotors (note that the front left wheel was unplugged).</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1LsKYHBFMn-nD7--mny-3PHY76bfRed6A/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_b0c5272c-ee50-455c-af3c-a7a948a05c91.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1LsKYHBFMn-nD7--mny-3PHY76bfRed6A/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_b0c5272c-ee50-455c-af3c-a7a948a05c91.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">APIv2.mp4</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 2 months ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 3 months ago</span>
                     </p>
                 </a>
             </div>
@@ -1828,14 +1982,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>The cardboard proved to be slightly to flimsy to support the motor and chain drive, but from the few testes we were able to run before the wheel bearings started to come out of the cardboard and without the motor, the design appears to work well. Pictured is a ring being fed through the intake</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Ukgg9Dq-urIypoRDUUcP64GcVvWCR1qe/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_70c95a17-2469-468d-ab6e-38d39bb9b802.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Ukgg9Dq-urIypoRDUUcP64GcVvWCR1qe/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_70c95a17-2469-468d-ab6e-38d39bb9b802.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_003.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-VgrkEvC1mUIn15ywOBTtm1vLvaDRPYh/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_708c659e-c1d5-420a-bf38-3c479ffd1a72.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-VgrkEvC1mUIn15ywOBTtm1vLvaDRPYh/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_708c659e-c1d5-420a-bf38-3c479ffd1a72.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_004.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -1872,10 +2026,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we lasered the side plates of the intake as well as the front and back mounting plates for it, so we could continue our testing of the chain drive. We kept using the cardboard ramps as they were easier to adjust and were not necessary to have out of acrylic yet. We also moved from testing it by hand to testing it on the chassis. Since it mounts onto the middle chassis support, which we had not previously installed, we had to install it and to do so had to make so slight modifications to the bottom metal plate (cutting notches where the middle support goes):</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/15A8tjVMGLnGmF-hpetOJS9Izv45iNA7a/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_b5493054-af61-42c4-b1a7-c2ecd130c4fb.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/15A8tjVMGLnGmF-hpetOJS9Izv45iNA7a/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_b5493054-af61-42c4-b1a7-c2ecd130c4fb.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6541.JPG</span>
-                        <span class="bookmark-edited">Last edited by Philip Davis 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Philip Davis 2 weeks ago</span>
                     </p>
                 </a>
             </div>
@@ -1883,7 +2037,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>In testing we figured out that the front of the intake needs to be raised slightly because the robot sinks into the mats of the field just slightly, making the distance between the ramp and intake wheels just barely too close. To solve this, we moved the holes to the top of the slots on the hole pattern instead of the bottom and the intake worked very well and reliably. We also bent the upper ramp slightly so it formed a continuous plate with the bottom one, which solved our bending and jamming issue with the upper two ramps. Additionally, the rings would bounce around in the holding area, causing them to get caught and not be flat. To solve this, we added an extra tall back plate and an extra angle to the upper ramps so that the rings are guided directly into the holding area.</p>
                                                 <p>Video of testing:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ChReGx6DQMV71s__5_gqVHu8my8DdzPs/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_41a9d486-4780-421a-8a54-8d18ce3eb4cc.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ChReGx6DQMV71s__5_gqVHu8my8DdzPs/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_41a9d486-4780-421a-8a54-8d18ce3eb4cc.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_6087.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
@@ -1909,7 +2063,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>As can be seen in the bellow video, the shooter assembly was able to attach and work with the V2 intake as expected. Unfortunately we ran out of time to test the actual shooting.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ChReGx6DQMV71s__5_gqVHu8my8DdzPs/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_160b8c11-d72b-4053-85f6-af8a863ba8d8.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ChReGx6DQMV71s__5_gqVHu8my8DdzPs/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_160b8c11-d72b-4053-85f6-af8a863ba8d8.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_6087.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
@@ -1964,7 +2118,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We mounted the servo to the shooter, which is used to push the rings into the shooter. The servo is located under the intake, so we weren't able to get any good pictures of it, however it can be seen in a cross section of the CAD model:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1wKSUrwkINtF9Hb51eGYux0c16vq35yHL/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_43f96c19-f777-4e16-81ab-120b10910649.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1wKSUrwkINtF9Hb51eGYux0c16vq35yHL/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_43f96c19-f777-4e16-81ab-120b10910649.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Shooter_intake V2 assy v66 2.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -1993,7 +2147,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we worked on more testing of the rake and lasered out a new design that will allow any stacked rings to pass through it, allowing it to work better with the new intake, which has a front plate that will block stacked rings from going in. Pictured is the drawings of the rake design.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1yv6trXwNM5s9e_TSKW9GzDPizu3tFRFB/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_b65d111c-181c-4e91-b61b-9b52a09c3142.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1yv6trXwNM5s9e_TSKW9GzDPizu3tFRFB/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_b65d111c-181c-4e91-b61b-9b52a09c3142.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -2003,7 +2157,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>The new rake design seems to work as intended, as can be seen in the video below</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1gur08Q7JIKplwHr_AEHCA6ArRUU7YSF7/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_6cb57cfd-c797-427f-8633-e1da44605ffa.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1gur08Q7JIKplwHr_AEHCA6ArRUU7YSF7/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_6cb57cfd-c797-427f-8633-e1da44605ffa.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/quicktime">IMG_6533.MOV</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 2 months ago</span>
@@ -2027,10 +2181,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>In the weeks leading up to December break, I worked on documenting and adding to some of the core components of API v2. I started by adding encoder drive methods to the <code class="inline-snippet">Drivetrain</code> class. I then expanded the <code class="inline-snippet">DcMotorX</code> documentation and wrote pages for <code class="inline-snippet">Drivetrain</code>, <code class="inline-snippet">ControlledDrivetrain,</code> and <code class="inline-snippet">Odometry</code> (see <a href="https://notion.so/3baa071900aa4ff6b7b192b2f50351c3">here</a>, <a href="https://notion.so/8a28628d5ac649c1b4fd90ddee9e43a0">here</a>, and <a href="https://notion.so/f017ebd40ed147ef8c90bf4bbee02df8">here</a>).</p>
                                                 <p>I was able to test a <code class="inline-snippet">Drivetrain</code> using controller input, and it seemed to work as expected (keep in mind that the front left wheel is unplugged).</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1LsKYHBFMn-nD7--mny-3PHY76bfRed6A/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_ceb09414-5c25-4236-80d0-abdf610eaff9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1LsKYHBFMn-nD7--mny-3PHY76bfRed6A/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_ceb09414-5c25-4236-80d0-abdf610eaff9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">APIv2.mp4</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 2 months ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 3 months ago</span>
                     </p>
                 </a>
             </div>
@@ -2261,10 +2415,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>With the claw now added to the wobble arm, I was able to finalize and test the Autonomous OpMode this week. I started by adding code to operate the claw and moving the arm all the up before leaving the target zones. </p>
                                                 <p>I then diagrammed a formal plan for the autonomous OpMode to check my code's sequence and measurements against.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1Ojo-LybHqCQDfuU_aMfwbp7cZ4o40O8QLzCPqIDPL7E/edit?usp=drivesdk" style="background-image: url(static/img/drive/bg_436fe8ec-02ab-4d25-8352-5463063ec800.jpg)">
+                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1Ojo-LybHqCQDfuU_aMfwbp7cZ4o40O8QLzCPqIDPL7E/edit?usp=drivesdk" style="background-image: url(/static/img/drive/bg_436fe8ec-02ab-4d25-8352-5463063ec800.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/vnd.google-apps.drawing">autonomous-v2 - EMBED INTO NOTION!!!!!</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 6 days ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
                     </p>
                 </a>
             </div>
@@ -2273,7 +2427,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>This will not be fully solved until we replace the existing system with OpenCV. However, to reduce detection error for the time being, I have changed the code so that the robot drives about 1/2 of a tile forward and waits 3 seconds before determining the target zone. This gives it a much better view of the rings, and, based on testing results, significantly decreases the frequency of incorrect detections.</p>
                                                 <p>Once all of this was finished, I put together a video to demonstrate the results.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1P4a99BvL5D2yiP18i7_dRrup-aAmtcDa/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_01f21c0a-6483-40c7-87b4-a5e9e9ec63c9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1P4a99BvL5D2yiP18i7_dRrup-aAmtcDa/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_01f21c0a-6483-40c7-87b4-a5e9e9ec63c9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">latest_autonomous.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 2 months ago</span>
@@ -2322,7 +2476,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
 }</code></pre>
                                                 <p>After some testing and modifications, this feature worked smoothly.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VzPpYnZvBtu1qeRkjIzVfLTb56MzyjBp/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_3aaca14c-b077-4eb1-942b-41f0eb24cc4a.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VzPpYnZvBtu1qeRkjIzVfLTb56MzyjBp/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_3aaca14c-b077-4eb1-942b-41f0eb24cc4a.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">rapidfire.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 1 month ago</span>
@@ -2350,14 +2504,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>To help with the friction issue, at least on the top set of guards, we removed the top section of the top guard, keeping the cardboard in place, and replaced the guard with a piece of loose surgical tubing. We then used tape to attach a small piece of bent metal to the cardboard so that it would still maintain somewhat of a curved shape.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Brth_B1mR-2YHozcUI6hX6pjNih26lgG/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_c93353fd-e3f1-432f-b9fc-302fc268bc11.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Brth_B1mR-2YHozcUI6hX6pjNih26lgG/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_c93353fd-e3f1-432f-b9fc-302fc268bc11.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7474.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1M4IgUMUaVq1E7CcaWNJWPEg7iEeNXA1-/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_aaa783a8-b83c-4889-9fc7-160dd6a101af.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1M4IgUMUaVq1E7CcaWNJWPEg7iEeNXA1-/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_aaa783a8-b83c-4889-9fc7-160dd6a101af.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7473.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2381,14 +2535,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The acrylic shooter assembly was finished and mounted to the bot. It is pictured bellow before the servo was mounted:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1tdsei597CCXSWVMTggvBehZ_tdzP88do/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_defbba64-97b8-4144-901f-bf6e875d4d45.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1tdsei597CCXSWVMTggvBehZ_tdzP88do/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_defbba64-97b8-4144-901f-bf6e875d4d45.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1cKq3OSnYbID8CXh0KexcMlLJOOTLPmEq/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d0af056a-68f1-4a2d-8a0e-46260bfd5eb6.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1cKq3OSnYbID8CXh0KexcMlLJOOTLPmEq/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d0af056a-68f1-4a2d-8a0e-46260bfd5eb6.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 months ago</span>
@@ -2415,7 +2569,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The side plates were cut out of thick pressed board and attached to the robot with standoffs. They are very helpful in driving to prevent rings from going under the robot, and work very well.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1kTJAAV1Ms0hbYvxJmraYnI8qB5oCp58-/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_cd8bc932-e442-4183-93fd-bd3a7fde1735.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1kTJAAV1Ms0hbYvxJmraYnI8qB5oCp58-/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_cd8bc932-e442-4183-93fd-bd3a7fde1735.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2440,14 +2594,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today, we hand cut and added more thick pressed board to the sides of the robot on an angle to deflect the rings.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VlXYBcgmP3ckvCYd_S5SW4hQT0adXPQd/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_1da12518-cd32-4264-9994-8590fb4f9ff9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VlXYBcgmP3ckvCYd_S5SW4hQT0adXPQd/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_1da12518-cd32-4264-9994-8590fb4f9ff9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1on8FEGBZtzXW3lXl7whtpaIa_g9H-sxk/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_e01d119f-477f-4bf6-9675-a7b90fb0aa58.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1on8FEGBZtzXW3lXl7whtpaIa_g9H-sxk/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_e01d119f-477f-4bf6-9675-a7b90fb0aa58.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2495,7 +2649,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we added more pieces of thick pressed board on the front of the robot to prevent rings from getting caught on the front of the rake. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1aSfDokJq_eHTLGbccD_9_jW3pMoNR3-9/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_dcda4a18-c214-447e-aea0-0b1b6fc5934d.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1aSfDokJq_eHTLGbccD_9_jW3pMoNR3-9/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_dcda4a18-c214-447e-aea0-0b1b6fc5934d.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_002.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2526,14 +2680,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Since there isn't a was to decrease the amount the rings are bending on the lower ramp (short of a complete redesign of the intake), we decided to replace the bottom ramp with a set of non driven rollers. There is still a short ramp above the rollers allowing the rings to be cleanly delivered to the top wheels, and the metal bottom is still used to "scrape" the rings off the ground. </p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HtutBDiQg_iC8D9aRrN5tFBLQHUy6QSm/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_35ccda3a-4d07-4c7c-9a6e-1c241f50dc6b.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1HtutBDiQg_iC8D9aRrN5tFBLQHUy6QSm/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_35ccda3a-4d07-4c7c-9a6e-1c241f50dc6b.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1orDAZ8Kc4R3ZKJXPc1KKjv7koHn6YZDI/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_0a9f5e94-21c0-4e5c-b654-1e934b5de05d.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1orDAZ8Kc4R3ZKJXPc1KKjv7koHn6YZDI/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_0a9f5e94-21c0-4e5c-b654-1e934b5de05d.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_003.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 1 month ago</span>
@@ -2542,10 +2696,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div></div></div>
                                                 <p>We also added slots in the metal bottom plate so that it could be moved front to back to more precise positions:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1bcyF6ix0o2_7cPfvK3XoSEyZHV9PhFNM/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_ddcfada7-ac75-4d48-b51e-e22f19cb9199.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1bcyF6ix0o2_7cPfvK3XoSEyZHV9PhFNM/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_ddcfada7-ac75-4d48-b51e-e22f19cb9199.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_002.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div>
@@ -2564,7 +2718,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today I (Wolfie) cadded up the handles into the side plates. Due to the fact that the side plates are now expected to hold the weight of the whole bot, I added more connection points to the robot so it would spread the weight out more and be stronger.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xyRF2lTXoCrif-QW8cZe8OOgl6UEWieA/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_adc5ecea-3a1d-46e0-b680-2dfe839e0e43.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xyRF2lTXoCrif-QW8cZe8OOgl6UEWieA/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_adc5ecea-3a1d-46e0-b680-2dfe839e0e43.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2572,7 +2726,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1V5w-zoWFmCHvAJVh4AosTAiYk3BYHPzk/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_66ba47b7-afb6-4956-a1bf-fba9b659ac1e.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1V5w-zoWFmCHvAJVh4AosTAiYk3BYHPzk/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_66ba47b7-afb6-4956-a1bf-fba9b659ac1e.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2601,14 +2755,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We tried simply lowering the velocity of the shooter wheel and increasing the angle in order to comply with the 16ft max shooting distance while still being able to shoot into the high goal, but found that we had to lower the velocity to around 45%, at which point the motor controller was able to maintain a constant velocity for the wheel, making the shooting inconsistent. We then realized that using a smaller diameter wheel might allow us to over come these problems, so we switched the 4in green compliant wheel for a 3" green compliant wheel. The switch allowed us to run the motor at around 70% velocity, where the controller was able to maintain a consistent speed, without shooting over the 16ft max distance and while still being able to hit the top tower goal.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VZCFb7UXlOVHP8xHEy5yOQLW8lfnZFlV/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_26006164-c10d-405d-a59c-27d52878eea2.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1VZCFb7UXlOVHP8xHEy5yOQLW8lfnZFlV/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_26006164-c10d-405d-a59c-27d52878eea2.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6978.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1jp8Bi8pm78U1WFJ7sbOA9WDTP-6lv0r2/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_02d19771-f699-41a2-b35c-d9f5dffdcde0.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1jp8Bi8pm78U1WFJ7sbOA9WDTP-6lv0r2/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_02d19771-f699-41a2-b35c-d9f5dffdcde0.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_6980.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2662,14 +2816,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Over the weekend I (Cailean) redesigned the shooter assembly to reflect the changes we made in order to work with the smaller shooter wheel. Today we lasered out the new plates, which create a gap in the motor side top support beam so that the motor can move closer to the shooting track. </p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1wbk7OJVJyxYHTylj8YW2iQ3Klkw9LrBT/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_1f19df54-fd02-4cca-ad45-5c67f3921b04.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1wbk7OJVJyxYHTylj8YW2iQ3Klkw9LrBT/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_1f19df54-fd02-4cca-ad45-5c67f3921b04.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">shooter small wheel support1.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1aJnHDVeNMKnGDaAlvD-rNmv-NAy_ttW_/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_7b65631d-a09a-420f-80ff-0b94a5fe9687.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1aJnHDVeNMKnGDaAlvD-rNmv-NAy_ttW_/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_7b65631d-a09a-420f-80ff-0b94a5fe9687.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7483.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2692,7 +2846,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The rake's cross beams have still not been cut down, and because of that we cant put a plate on that side of the robot. To solve this, I (Wolfie) angled the front plate on that side so it wouldn't hit the rake but still stay protected.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/16Q5gweGLUR-DvA6uykEj_viJZrJCcY9y/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_3e4243a6-ea18-4d38-a77f-c232cc872569.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/16Q5gweGLUR-DvA6uykEj_viJZrJCcY9y/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_3e4243a6-ea18-4d38-a77f-c232cc872569.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2700,7 +2854,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1j0oUI4NlGlGINrUX-ZhyEzc4yaFPbDLZ/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f58cd139-f6ec-44c3-8cfa-49489561e649.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1j0oUI4NlGlGINrUX-ZhyEzc4yaFPbDLZ/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f58cd139-f6ec-44c3-8cfa-49489561e649.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2730,14 +2884,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We decided the best spot for the hubs, considering where cables could reach, accessibility, and interference with future design changes, was positioned vertically on the back of the right side of the bot, with the plugs facing out. We quickly cut a cardboard plate to hold them, and after confirming that the new position would be secure and not interfere with the rest of the mechanisms on the bot, re routed the wires.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-pi9pSSN2oGTYTSyiPaIqCR3df5aE2cU/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d3cd4c39-d3b4-4340-9c67-ac7430d2c392.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-pi9pSSN2oGTYTSyiPaIqCR3df5aE2cU/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d3cd4c39-d3b4-4340-9c67-ac7430d2c392.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7462.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1XmaFGlIj64lBWMd1juzgijHemVgPJs9O/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_8173923d-01b1-4ae2-a4c7-b33f8832058f.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1XmaFGlIj64lBWMd1juzgijHemVgPJs9O/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_8173923d-01b1-4ae2-a4c7-b33f8832058f.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7337.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2766,14 +2920,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <img src="static/saved_files/Untitled(2).png" height="auto" width="384">
                                                 <p>Since the omni wheels we have are slightly larger then the ones used in the OpenOdometry pods, we had to make some slight changes to the design, and to save on space, we decided that the encoder assembly was strong enough to support the wheels by it's self, eliminating the need for a support plate on the non encoder side of the wheel. Ultimately, we came up with this:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1dSHbQ7CSMVCG4vPqMHmXqS0D8Jo4F8Mu/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f6793c12-018d-4945-9c82-e0105ee3e037.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1dSHbQ7CSMVCG4vPqMHmXqS0D8Jo4F8Mu/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f6793c12-018d-4945-9c82-e0105ee3e037.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">odometry pod v9 2.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1j-1wMY9KoO6T89KUVTZhM1r-X22IzUr8/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_af00c605-6782-4ee7-aa70-c800688538e6.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1j-1wMY9KoO6T89KUVTZhM1r-X22IzUr8/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_af00c605-6782-4ee7-aa70-c800688538e6.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">odometry pod v9 1.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
@@ -2782,14 +2936,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div></div></div>
                                                 <p>Which uses laser cut acrylic for most of the pieces, and these 3D printed parts to connect the wheel to the encoder:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xIjZQ4Li_sMQ3azDTeSc5eM66q6GA3zo/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_ea2b6ac2-7b32-420e-84c1-80299259078c.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1xIjZQ4Li_sMQ3azDTeSc5eM66q6GA3zo/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_ea2b6ac2-7b32-420e-84c1-80299259078c.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">odometry pod v9 12.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12NE4f9GPGkftFFhZ_pqi6dp1Nz7_qJfE/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_2ab36509-0bb0-4e3f-8760-dca59b197dea.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12NE4f9GPGkftFFhZ_pqi6dp1Nz7_qJfE/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_2ab36509-0bb0-4e3f-8760-dca59b197dea.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">odometry pod v9 11.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
@@ -2798,14 +2952,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div></div></div>
                                                 <p>The entire assembly then attaches to the goBuilda chassis using this plate:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1DF6zH33p4IjILQRG9Jk0upcBpBpoEFsf/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_7128a3a7-eda9-4bcc-a60f-1bfcd092c035.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1DF6zH33p4IjILQRG9Jk0upcBpBpoEFsf/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_7128a3a7-eda9-4bcc-a60f-1bfcd092c035.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Odometery v8 14.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1BWfes-8taAPb-SBKtbJ1H29sZF2CDk4o/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_1ef0384e-187e-4939-9cdf-68a9c521cbb9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1BWfes-8taAPb-SBKtbJ1H29sZF2CDk4o/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_1ef0384e-187e-4939-9cdf-68a9c521cbb9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Odometery v8 15.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
@@ -2816,14 +2970,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>The assembly, pictured below, is very sturdy, despite the reserves we had about the encoder and wheel only being attached by two screws on the encoder without any extra support. It does however take up a considerable amount of room. Originally we thought we would need a spring to maintain downward pressure, but because we put the pivot point slightly farther back then other designs (to correspond with the goBuilda holes) it appears as though the assembly by it's self will have enough weight to keep it's self down. We will still have to add a string or other stop to keep it from hinging to far down when the bot is lifted up.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/11oFqtaHISeEIjvXTmgRTcrkxB45nt7vP/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d514d34c-c4fa-4eb9-b20f-7a1886bd30a9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/11oFqtaHISeEIjvXTmgRTcrkxB45nt7vP/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d514d34c-c4fa-4eb9-b20f-7a1886bd30a9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7319.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Ey1XbJvqlMsJkPo0QT_4XNGMesK8aiRt/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_fcabfd0f-7d29-4f74-a20f-2e46abed80bc.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Ey1XbJvqlMsJkPo0QT_4XNGMesK8aiRt/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_fcabfd0f-7d29-4f74-a20f-2e46abed80bc.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7320.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2861,7 +3015,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>We cut out the compressed main plates and assembled them on the bot:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1vsbn6snupJM3I4uLE82CNyCWIFujIfNU/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_1d38e211-6187-4c38-82d1-787dc7bb40ee.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1vsbn6snupJM3I4uLE82CNyCWIFujIfNU/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_1d38e211-6187-4c38-82d1-787dc7bb40ee.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7612.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2872,7 +3026,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Takeaways</h3>
                                                 <p>Reducing the radius around the main pivot did not have any noticeable impact on the strength of the design. However, when tightening the connection between the wheel and the encoder, the 3D printed connector broke, due to the fact that it was printed with only 20% infill as a proof of concept:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1zKJrsdH1nh7P0YiCWtQGrHt6whP9VyI7/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_5384befb-2d99-4ce3-ab73-4d4948eaffc9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1zKJrsdH1nh7P0YiCWtQGrHt6whP9VyI7/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_5384befb-2d99-4ce3-ab73-4d4948eaffc9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7355.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2895,7 +3049,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today the cad was updated as well as there was discussion as to how would be the best way to cover the updated rake motor assembly, as well as take advantage of the new mounting possibilities that it provides.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-oRIjltskZsyg382-qJ4eFbTUgqfojJe/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_7a3a0999-cbad-4df9-95c0-e4bb050df5ab.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-oRIjltskZsyg382-qJ4eFbTUgqfojJe/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_7a3a0999-cbad-4df9-95c0-e4bb050df5ab.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2903,7 +3057,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1utCAHwCfrAmRs89fPFd4tr8iALOrGVZ2/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_0f50a66c-6290-4b89-b920-ef9c7c2ea905.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1utCAHwCfrAmRs89fPFd4tr8iALOrGVZ2/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_0f50a66c-6290-4b89-b920-ef9c7c2ea905.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2928,14 +3082,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The acrylic version of the hub mounting plate was put on the robot, replacing the cardboard version. The hubs were remounted, and wiring organized.  </p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ANOvy2eqtX-uip0R1edrmosvtzoFcDVR/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_de5ad507-b4b6-456b-8292-8aa711000cf5.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ANOvy2eqtX-uip0R1edrmosvtzoFcDVR/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_de5ad507-b4b6-456b-8292-8aa711000cf5.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7464.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/150ecllmMOXg_r7EDLTjLtXzlQbSDUeM1/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_73932ebc-9145-4a3a-b71c-d7d36fa53787.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/150ecllmMOXg_r7EDLTjLtXzlQbSDUeM1/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_73932ebc-9145-4a3a-b71c-d7d36fa53787.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7466.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2963,7 +3117,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today I cadded the upper angled side plates as well as updated the front plate to be able to match up to it all. The side plate on the side of the hub mounts was also changed because there are hubs there now, and it can't be angled anymore. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/14zhRCQwJqrm565HARTfvrRsle_gsw95U/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d3f46659-3154-4519-a1a4-8965fb701c51.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/14zhRCQwJqrm565HARTfvrRsle_gsw95U/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d3f46659-3154-4519-a1a4-8965fb701c51.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_002.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2971,7 +3125,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Gva9-wyNuJ4P0SmuNrcTv5igjxnUx46d/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_28f52872-8872-45ee-8c5a-963b960f888f.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Gva9-wyNuJ4P0SmuNrcTv5igjxnUx46d/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_28f52872-8872-45ee-8c5a-963b960f888f.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_003.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -2994,7 +3148,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Three new sets of encoder to wheel connectors were 3D printed, using 60% infill, 3 layer walls, and a cubic infill pattern. They were then installed on the bot.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/13DEcM88KpA3AFs66APLjenzrRpDh5KK_/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_29a12577-8497-4140-99bd-87f9de5fa83d.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/13DEcM88KpA3AFs66APLjenzrRpDh5KK_/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_29a12577-8497-4140-99bd-87f9de5fa83d.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
@@ -3020,14 +3174,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>For the moment, the design, pictured bellow, will be considered done.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1fGVj_99T1ERxKdJK21Wx4TwnXcDcApHL/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_dbf36123-d119-4715-af0c-000824eec757.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1fGVj_99T1ERxKdJK21Wx4TwnXcDcApHL/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_dbf36123-d119-4715-af0c-000824eec757.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Shooter_intake V2 assy v82-2.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12IKWe7jyvO3B6qglwZkAnb-FnL5Ddosp/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_bf02ca33-f428-4fe0-b225-ab23211ff1af.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/12IKWe7jyvO3B6qglwZkAnb-FnL5Ddosp/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_bf02ca33-f428-4fe0-b225-ab23211ff1af.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Shooter_intake V2 assy v82.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 1 month ago</span>
@@ -3051,7 +3205,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today I (Cailean) added the mounts for all the side plates using Tetrix 90 deg adapter plates, as they are smaller than the Actobotics ones, as well as we have a bunch of them that we are not using otherwise. However, for the angled connections I used Actobotics 45 deg adapter plates because we do not have 45 deg Tetrix ones and the Actobotics ones are stronger. I also changed the front plate so that it has part of it that bends with tapped holes, that the upper front pieces will screw into. Additionally I added "fenders" that attach from the side plates to the hub mount to keep the wires from accidentally getting caught in the wheel.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1dMLzzs1UhWX-5kf7OqxrVQnA7PptcPFx/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_f237d0ba-af37-4b84-8287-2b9161d479bd.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1dMLzzs1UhWX-5kf7OqxrVQnA7PptcPFx/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_f237d0ba-af37-4b84-8287-2b9161d479bd.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7669.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3079,14 +3233,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we wired the three odometry pods into the Rev Expansion Hubs, a fairly straight forward process. We of course did a little wire management in order to keep the wiring tidy. The odometry pods are now finished, the rest of odometry (the programming) will be documented in a separate as a separate programming project. The completed odometry pods are pictured bellow:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1pjPd4Gn177dD3M97xg7keTLyKgmQamvc/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_3dbb36c0-3412-471a-953c-5cd76875eaee.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1pjPd4Gn177dD3M97xg7keTLyKgmQamvc/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_3dbb36c0-3412-471a-953c-5cd76875eaee.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Odometery v8 21.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1eTdbV7Qi4WfvG3PNSEQNFiAbbp2E2sxr/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_e9818488-e51f-4a00-83b4-c08d65249fdd.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1eTdbV7Qi4WfvG3PNSEQNFiAbbp2E2sxr/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_e9818488-e51f-4a00-83b4-c08d65249fdd.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Odometery v8 24.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
@@ -3094,14 +3248,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div></div></div>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ZUI6xHA0nd-RFOhLlAuMBT5u5FcqRVtk/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_71e8173a-5f36-40dd-87f6-8c4520bc59fa.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ZUI6xHA0nd-RFOhLlAuMBT5u5FcqRVtk/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_71e8173a-5f36-40dd-87f6-8c4520bc59fa.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/png">Odometery v8 22.png</span>
                         <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/15titPxN-dyKEqwiGM7N_lqu6DhETuvyi/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_57c58f87-df84-417d-bd9d-28bee775fcdd.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/15titPxN-dyKEqwiGM7N_lqu6DhETuvyi/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_57c58f87-df84-417d-bd9d-28bee775fcdd.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7462.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3124,14 +3278,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we lasered the front plate and fenders out of Acrylic and I tried bending them. Since the rear fender had two bends in opposite directions, we decided the acrylic bender we used in the past (a table with a slot in the middle, which had a heating element in it) might not work very well. We also didn't want to use the heat gun, as we wouldn't be able to direct the heat very accurately. Fortunately, we realized that a hot air rework station, used to solder SMD components using hot air, would get hot enough and allow us to direct the heat. I (Cailean) first tried the rework station set at 650 deg F, but that did not heat it quite enough, causing the acrylic to crack along part of the bend. I then raised the heat to 750 deg F, and tried the second fender. As can be seen, it worked quite well. After using the fenders to tune the settings, I bent the tabs on the front plate.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1kANwYfMz_rMuMXsBvOY758AUdwTNR0Nr/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_3dbb5dfe-6259-4ad4-a95d-5c4d2dadafa7.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1kANwYfMz_rMuMXsBvOY758AUdwTNR0Nr/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_3dbb5dfe-6259-4ad4-a95d-5c4d2dadafa7.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7668.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/19GAMOSCAwmzruSb2AXalk56hgOxsDXr0/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_14fb7a13-e880-470c-8042-0bcee2d0c09c.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/19GAMOSCAwmzruSb2AXalk56hgOxsDXr0/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_14fb7a13-e880-470c-8042-0bcee2d0c09c.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7667.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3139,7 +3293,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div></div></div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1u_07I-4EiJxSPKfC7cBORv76h1IYSlbd/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d2f25299-507a-4c39-8a36-cf3739495a7f.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1u_07I-4EiJxSPKfC7cBORv76h1IYSlbd/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d2f25299-507a-4c39-8a36-cf3739495a7f.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_7666.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3148,7 +3302,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div>
                                                 <p>Additionally we also imported the sponsor logos to see how they would all fit on the side plates so we can start cutting those out of vinyl too.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1trm0NZKYp3kIgfRmh9cRxbpZKdmpFe_d/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_9a8d15d8-795a-46d8-966f-d95a4b3a85da.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1trm0NZKYp3kIgfRmh9cRxbpZKdmpFe_d/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_9a8d15d8-795a-46d8-966f-d95a4b3a85da.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_005.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3156,7 +3310,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                 </a>
             </div>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ymUzTgEC7iY6x-EGnQPmVo38hMiCrJCj/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_d2e364e6-551c-4c2b-b0fd-dfcdd45a2c2e.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ymUzTgEC7iY6x-EGnQPmVo38hMiCrJCj/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_d2e364e6-551c-4c2b-b0fd-dfcdd45a2c2e.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_004.jpeg</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3255,7 +3409,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>Today we lasered out the remaining pieces of the side plates as well as cutting out all the vinyl for our sponsors.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1OHWxj2OVKxQYnQSs7YDmuH2x_3iAHRy0/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_8d37f1b3-0d51-443e-85fa-1ded510b9b16.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1OHWxj2OVKxQYnQSs7YDmuH2x_3iAHRy0/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_8d37f1b3-0d51-443e-85fa-1ded510b9b16.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">Corner View.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 month ago</span>
@@ -3266,6 +3420,27 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>All the pieces fit together except for one piece where the hole pattern was 1/8" too far into the part (the thickness of the acrylic), because we added one too many thickness offsets in the CAD. However this was easily solved with a spare spacer that we accidentally cut earlier in the day so it all worked out nicely.</p>
                                             <h3>Plans</h3>
                                                 <p>Cut spares just in case for the front and back in case we break them, but other than that, this card is being moved to done now as the side plates and vinyl are all done and assembled on the robot.</p>
+                            </div>
+                            <div class="card">
+                                <h1 id="entries-starting02_10_2021">02/10/2021</h1>
+                                    <hr>
+                                    <h2>Arduino Car Project</h2>
+                                    <div class="columns">
+                                            Final Design
+                                            →
+                                            Done
+                                    </div>
+                                    <div class="users">
+                                            <a>Cailean Sorce</a>
+                                            <a>Eva Joly</a>
+                                            <a>Isaac Krementsov</a>
+                                    </div>
+                                            <h3>Progress</h3>
+                                                <p>The project is taking much longer for club members to complete then expected, but that is mostly due to having all virtual meetings, due to COVID. The one issue that was found was that sometimes when students modified their wheel servos for continuous rotation, they (the servos) were set in a not quite centered position, causing them to slowly turn one direction when the code says to hold still. This problem is easily correctable in code, but finding the right constant to account for the error can be time consuming, so we added a feature to the control web page that allows the user to set the errors without reuploading the code every time they want to try a new offset.</p>
+                                            <h3>Takeaways</h3>
+                                                <p>Overall, the project has been very successful in teaching the club members basic robotics skills.</p>
+                                            <h3>Plans</h3>
+                                                <p>Until other issues are found, this project will be considered done.</p>
                             </div>
                             <div class="card">
                                 <h1 id="entries-starting02_16_2021">02/16/2021</h1>
@@ -3286,14 +3461,14 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The servo that pushes the rings into the shooter wheel was moved from the front side of the holding container to the left side. The primary reason for doing this was to make removal of the shooter assembly easier; with the previous servo servo placement, the shooter assembly had to be tilted down to horizontal so that the servo could pass around the top intake wheels. This did not used to be a problem, but the new side plates (specifically the back plate) doesn't allow this movement, so it has to be removed to take shooter out. A new arm was also put on the servo which curves around the holding container sides. Thick wire was used to make the arm, as that was what was available and could easily be bent to the needed shape.</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ENZXwzIAUfQF48BX8PN5qpR0206KXX3Z/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_c79601d3-1064-4446-8d95-058a3999436a.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1ENZXwzIAUfQF48BX8PN5qpR0206KXX3Z/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_c79601d3-1064-4446-8d95-058a3999436a.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_8412.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 week ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Rq678UQIoY1RlHjst6YSoDuqu-X-Qn9G/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_2bcaee65-c047-4c55-b47a-a1464fc06a70.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1Rq678UQIoY1RlHjst6YSoDuqu-X-Qn9G/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_2bcaee65-c047-4c55-b47a-a1464fc06a70.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">IMG_8411.JPG</span>
                         <span class="bookmark-edited">Last edited by Philip Davis 1 week ago</span>
@@ -3324,7 +3499,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>Using the original setpoint and <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="50" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="11.059ex" height="2.213ex" role="img" focusable="false" viewBox="0 -683 4888.1 978" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.667ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="TeXAtom" transform="translate(849, -150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D443"></use></g><g data-mml-node="mi" transform="translate(751, 0)"><use xlink:href="#MJX-TEX-I-1D466"></use></g></g></g><g data-mml-node="mo" transform="translate(2054.3, 0)"><use xlink:href="#MJX-TEX-N-3D"></use></g><g data-mml-node="mn" transform="translate(3110.1, 0)"><use xlink:href="#MJX-TEX-N-30"></use><use xlink:href="#MJX-TEX-N-2E" transform="translate(500, 0)"></use><use xlink:href="#MJX-TEX-N-30" transform="translate(778, 0)"></use><use xlink:href="#MJX-TEX-N-31" transform="translate(1278, 0)"></use></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mrow><mi>P</mi><mi>y</mi></mrow></msub><mo>=</mo><mn>0.01</mn></math></mjx-assistive-mml></mjx-container>, I tested <code class="inline-snippet">PositionControlTest</code> again. The results were what I expected from a P controller, with a fairly slow settling time but reasonable accuracy. When I increased <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="51" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="4.019ex" height="2.213ex" role="img" focusable="false" viewBox="0 -683 1776.5 978" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.667ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="TeXAtom" transform="translate(849, -150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D443"></use></g><g data-mml-node="mi" transform="translate(751, 0)"><use xlink:href="#MJX-TEX-I-1D466"></use></g></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mrow><mi>P</mi><mi>y</mi></mrow></msub></math></mjx-assistive-mml></mjx-container> to 0.1, the settling time decreased but there was considerable overshoot. I then set low <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="52" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.235ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1430 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>P</mi></msub></math></mjx-assistive-mml></mjx-container> values for <i>x</i> and <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="53" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.348ex" height="2.034ex" role="img" focusable="false" viewBox="0 -694 596 899" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.464ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D719"></use></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϕ</mi></math></mjx-assistive-mml></mjx-container> and changed the setpoint to y=1.5 tiles, x=1.5 tiles, heading=90 degrees/<mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="54" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.907ex" height="2.361ex" role="img" focusable="false" viewBox="0 -698.8 843.1 1043.8" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.781ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mi" transform="translate(220, 394) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D70B"></use></g><g data-mml-node="mn" transform="translate(244.7, -345) scale(0.707)"><use xlink:href="#MJX-TEX-N-32"></use></g><rect width="603.1" height="60" x="120" y="220"></rect></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mi>π</mi><mn>2</mn></mfrac></math></mjx-assistive-mml></mjx-container>,  which resulted in steady-state error for <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="55" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.348ex" height="2.034ex" role="img" focusable="false" viewBox="0 -694 596 899" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.464ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D719"></use></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϕ</mi></math></mjx-assistive-mml></mjx-container> but otherwise accurate positioning.</p>
                                                 <p> After getting decent proportional control, I fiddled with <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="56" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="2.84ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1255.4 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D43C"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>I</mi></msub></math></mjx-assistive-mml></mjx-container>s and <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="57" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.359ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1484.5 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D437"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>D</mi></msub></math></mjx-assistive-mml></mjx-container>s for a while but had trouble reducing overshoot and "jumpiness". Instead of continuing to make arbritrary adjustments, I decided to look for specific tuning techniques. </p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1evvARCXe4t6ZYZKbRvsj1HOyE4cWsQ1J/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_b72d7a69-cb36-459f-b846-63aa31b226ab.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1evvARCXe4t6ZYZKbRvsj1HOyE4cWsQ1J/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_b72d7a69-cb36-459f-b846-63aa31b226ab.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">InitialPIDTest.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
@@ -3342,7 +3517,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <li class="list-elem">Use <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="66" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="9.141ex" height="3.135ex" role="img" focusable="false" viewBox="0 -929 4040.1 1385.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -1.033ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D43C"></use></g></g><g data-mml-node="mo" transform="translate(1533.2, 0)"><use xlink:href="#MJX-TEX-N-3D"></use></g><g data-mml-node="mfrac" transform="translate(2588.9, 0)"><g data-mml-node="msub" transform="translate(220, 446.1) scale(0.707)"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g><g data-mml-node="msub" transform="translate(415.2, -345) scale(0.707)"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D447"></use></g><g data-mml-node="mi" transform="translate(584, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D456"></use></g></g><rect width="1211.2" height="60" x="120" y="220"></rect></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>I</mi></msub><mo>=</mo><mfrac><msub><mi>K</mi><mi>P</mi></msub><msub><mi>T</mi><mi>i</mi></msub></mfrac></math></mjx-assistive-mml></mjx-container> and <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="67" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="11.877ex" height="1.901ex" role="img" focusable="false" viewBox="0 -683 5249.8 840.1" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.355ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D437"></use></g></g><g data-mml-node="mo" transform="translate(1762.3, 0)"><use xlink:href="#MJX-TEX-N-3D"></use></g><g data-mml-node="msub" transform="translate(2818, 0)"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g><g data-mml-node="msub" transform="translate(4248.1, 0)"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D447"></use></g><g data-mml-node="mi" transform="translate(584, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D451"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>D</mi></msub><mo>=</mo><msub><mi>K</mi><mi>P</mi></msub><msub><mi>T</mi><mi>d</mi></msub></math></mjx-assistive-mml></mjx-container> to find the remaining coefficients</li>
                                                 <p>By making a setpoint that only changed the <i>y</i>-coordinate and using <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="68" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="4.019ex" height="2.213ex" role="img" focusable="false" viewBox="0 -683 1776.5 978" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.667ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="TeXAtom" transform="translate(849, -150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D443"></use></g><g data-mml-node="mi" transform="translate(751, 0)"><use xlink:href="#MJX-TEX-I-1D466"></use></g></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mrow><mi>P</mi><mi>y</mi></mrow></msub></math></mjx-assistive-mml></mjx-container> as <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="69" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.235ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1430 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>P</mi></msub></math></mjx-assistive-mml></mjx-container>, I worked towards neutral stability for <i>y</i>-error by slowling increasing <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="70" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.235ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1430 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>P</mi></msub></math></mjx-assistive-mml></mjx-container>. Once I found <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="71" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.261ex" height="1.92ex" role="img" focusable="false" viewBox="0 -683 1441.4 848.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D448"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>U</mi></msub></math></mjx-assistive-mml></mjx-container>, I filmed the robot's motion and determined <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="72" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="2.661ex" height="1.906ex" role="img" focusable="false" viewBox="0 -677 1176.4 842.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D447"></use></g><g data-mml-node="mi" transform="translate(584, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D448"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>U</mi></msub></math></mjx-assistive-mml></mjx-container> from the frequency of its oscillations.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1eyhhcjuxJxvXk60l9TP4_G7lFQQYxDP7/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_fc2717f7-9651-4ab7-bce0-adb3a04da927.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1eyhhcjuxJxvXk60l9TP4_G7lFQQYxDP7/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_fc2717f7-9651-4ab7-bce0-adb3a04da927.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">YNeutralStability.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
@@ -3351,7 +3526,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div>
                                                 <p>I then tried the same for only the <i>x</i>-coordinate, but the robot's weight imbalance caused changes in heading that made finding an accurate <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="73" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.261ex" height="1.92ex" role="img" focusable="false" viewBox="0 -683 1441.4 848.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D448"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>U</mi></msub></math></mjx-assistive-mml></mjx-container> impossible. In this case, it seemed that changes in <i>x</i> could not be separated from changes in other coordinates, meaning that I would have to find neutral stability for all of them at once. I changed my setpoint to y=1 tile, x=1 tile, heading = 180 degrees/<mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="74" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="1.29ex" height="1ex" role="img" focusable="false" viewBox="0 -431 570 442" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.025ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D70B"></use></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>π</mi></math></mjx-assistive-mml></mjx-container> and tried to find three <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="75" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.261ex" height="1.92ex" role="img" focusable="false" viewBox="0 -683 1441.4 848.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D448"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>U</mi></msub></math></mjx-assistive-mml></mjx-container>s. Unfortunately, I could not get simulatneous oscillations in <i>x</i> and <i>y</i>, even when I kept heading constant.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1exUCkXEjxosSmEipJmU83HtE-cNQTZz8/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_07594b61-3dfd-49ee-9067-d5477de92c82.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1exUCkXEjxosSmEipJmU83HtE-cNQTZz8/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_07594b61-3dfd-49ee-9067-d5477de92c82.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">AllCoordinateNeutralStability.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
@@ -3360,7 +3535,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
             </div>
                                                 <p>I realized that, while I would have to go back to tuning each coordinate separately, I could at least control heading by fully tuning its PID controller prior to doing the same for <i>x</i>. I ended up finding neutral stability and recording the ultimate parameters, but I have yet to test the values of <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="76" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.235ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1430 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D443"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>P</mi></msub></math></mjx-assistive-mml></mjx-container>, <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="77" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="2.84ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1255.4 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D43C"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>I</mi></msub></math></mjx-assistive-mml></mjx-container>, and <mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" role="presentation" tabindex="0" ctxtmenu_counter="78" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="3.359ex" height="1.885ex" role="img" focusable="false" viewBox="0 -683 1484.5 833" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.339ex;"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-TEX-I-1D43E"></use></g><g data-mml-node="mi" transform="translate(849, -150) scale(0.707)"><use xlink:href="#MJX-TEX-I-1D437"></use></g></g></g></g></svg><mjx-assistive-mml role="presentation" unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>K</mi><mi>D</mi></msub></math></mjx-assistive-mml></mjx-container> I calculated from these (using the "No overshoot" equations).</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1f-GXFDgSL_gRKZGZ5w63FgRLO3zpAle4/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_9c5e1175-503a-4fd9-a215-6588276ca3ec.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1f-GXFDgSL_gRKZGZ5w63FgRLO3zpAle4/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_9c5e1175-503a-4fd9-a215-6588276ca3ec.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">PhiNeutralStability.mp4</span>
                         <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
@@ -3389,41 +3564,41 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>The top flap of cardboard was replaced with a curved piece of sheet metal, as it was wearing out and required very precise adjustments of the elastic strap (which keeps pressure on the rings) to correctly deliver the rings, as it would bend as the rings passed under it.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1cBHeLOl3Mu5b1M8HvUJZqwhpeAKflJt_/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_049ead48-e3d0-4808-9276-2ffabec87de5.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1cBHeLOl3Mu5b1M8HvUJZqwhpeAKflJt_/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_049ead48-e3d0-4808-9276-2ffabec87de5.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1YAVZWx0hsl_Nq1jJcuMFvBIa8UGnaJci/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_663532a2-ced4-4cf8-8db3-84c711d43011.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1YAVZWx0hsl_Nq1jJcuMFvBIa8UGnaJci/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_663532a2-ced4-4cf8-8db3-84c711d43011.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_000.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/13BDv9-eBUdQaKJw1Ctgn3c_y_J7i73oi/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_0e5bc0a0-db56-4802-bb10-8d638fea8539.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/13BDv9-eBUdQaKJw1Ctgn3c_y_J7i73oi/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_0e5bc0a0-db56-4802-bb10-8d638fea8539.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_001.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div></div>
                                                 <p>We also put the bottom metal plate on hinges, so that it rests on the ground and can move up and down with small variations in the field, for example where the wall straps pass under the tiles. Since the back half of the plate had already been cut off to make room for the middle odometry pod, adding minges was not very hard; we just punched two new holes in the metal, bent the sides in (so they wouldn't rub on the chassis where they used to attach), and used actobotics hardware to attach it to the middle chassis support beam:</p>
                                                 <div class="column-list"><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1CgfCTTf9CFBZ0P9Cj9U7PVOhx6sp7qCG/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_3522f2c9-548c-4ffb-aa91-dcae3f1f38e8.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1CgfCTTf9CFBZ0P9Cj9U7PVOhx6sp7qCG/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_3522f2c9-548c-4ffb-aa91-dcae3f1f38e8.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_002.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div><div class="column"><div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-Mx4aysEUYASwDv7BCN7TpOVDEQkB8Bx/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_e4a6f287-6efa-4f00-9944-9351c5d21530.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1-Mx4aysEUYASwDv7BCN7TpOVDEQkB8Bx/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_e4a6f287-6efa-4f00-9944-9351c5d21530.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/jpeg">File_004.jpeg</span>
-                        <span class="bookmark-edited">Last edited by Cailean Sorce 1 week ago</span>
+                        <span class="bookmark-edited">Last edited by Cailean Sorce 2 weeks ago</span>
                     </p>
                 </a>
             </div></div></div>
@@ -3449,7 +3624,7 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                             <h3>Progress</h3>
                                                 <p>On Monday, I input the tuning coefficients I calculated for heading and continued using Ziegler-Nichols to tune the x and y controllers. However, the coefficients for the heading controller seemed far too high, even when I used the "No overshoot" formulas, and I couldn't obtain stable oscillations in any direction. While I was trying to figure out where the procedure went wrong, Wolfie suggested a different tuning method that he found on WPILib's FIRST documentation site.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark" href="https://docs.wpilib.org/en/stable/docs/software/advanced-controls/introduction/tuning-pid-controller.html" style="background-image: url(static/img/bookmark/bg_5a6d619f-9b9e-490b-ba25-3e78d707ddd2.jpg)">
+                <a class="web-bookmark" href="https://docs.wpilib.org/en/stable/docs/software/advanced-controls/introduction/tuning-pid-controller.html" style="background-image: url(/static/img/bookmark/bg_5a6d619f-9b9e-490b-ba25-3e78d707ddd2.jpg)">
                     <p>
                         <span class="bookmark-title">Tuning a PID Controller</span>
                         <span class="bookmark-description">These steps apply to position PID controllers. Velocity PID contr..</span>
@@ -3648,10 +3823,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>When I tested it after these changes, position control seemed to function properly; however, the x-coordinates were inverted in my positioning measurements because I measured from the right wall but entered the measurements as positive. I didn't have time to run another test, but I changed the <code class="inline-snippet">setPosition()</code> code to use inverted x-coordinates by default.</p>
                                                 <p>Since position control seems to work much faster and more accurately than using wheel encoders, I'm hoping that our final autonomous OpMode will be able to aim for the powershots instead of the high goal.</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1pYqq8ZaBWRBSTHG7lDoN60Pk1Am6_jDU7DSPVJo0tTU/edit?usp=drivesdk" style="background-image: url(static/img/drive/bg_247d7eba-2eea-4331-8ff3-6114f0f8446c.jpg)">
+                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1pYqq8ZaBWRBSTHG7lDoN60Pk1Am6_jDU7DSPVJo0tTU/edit?usp=drivesdk" style="background-image: url(/static/img/drive/bg_247d7eba-2eea-4331-8ff3-6114f0f8446c.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/vnd.google-apps.drawing">autonomous-v3</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 6 days ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 1 week ago</span>
                     </p>
                 </a>
             </div>
@@ -3677,19 +3852,19 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p>Ultimately, aiming for the powershots not only resulted in scoring very few points (in most cases), but also took up quite a bit of time, since the robot had to settle at 3 different locations. Shooting for the high goal, on the other hand, took less time and was far more consistent. For those reasons, I decided to go with that approach and (more than) make up the missing 9 points by either delivering a second wobble goal or shooting the starter stack rings.</p>
                                                 <p>Since accurately intaking the stack seemed difficult (our intake system usually requires pauses between rings), I started by going for the second wobble. Once I found the right positions using <code class="inline-snippet">DriveV2</code>, this worked well when I tested it on target zones A and B. However, I had trouble making the 30-second time limit with the additional distance required for zone C. Additionally, I had to intake at least some of the starter stack when driving over it to avoid rings getting stuck under the robot. Because of these factors, and the fact that just scoring 2 of the 4 rings in the high goal would give us more points than dropping the wobble, I changed the autonomous strategty for target zone C. This culminated in the (slightly convoluted) plan for Autonomous v3.1, which can actually score more points than v3 (up to 71 for zones A and B, and up to 92 for zone C):</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1LiyaTj-_RZoFTD9NlTkC70WgG8vikICA7wbcSNiPonI/edit?usp=drivesdk" style="background-image: url(static/img/drive/bg_a524af65-3a3b-46e5-8cde-338c3cc4cdc9.jpg)">
+                <a class="web-bookmark drive-preview" href="https://docs.google.com/drawings/d/1LiyaTj-_RZoFTD9NlTkC70WgG8vikICA7wbcSNiPonI/edit?usp=drivesdk" style="background-image: url(/static/img/drive/bg_a524af65-3a3b-46e5-8cde-338c3cc4cdc9.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/vnd.google-apps.drawing">autonomous-v3.1</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 1 day ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 2 days ago</span>
                     </p>
                 </a>
             </div>
                                                 <p>Below is a testing video with all 3 starter stacks:</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1hT226O8pOQ1FrDQfsCwkboArHXnkP0h3/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_0c72b292-f17d-4bad-b292-93747f8214df.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1hT226O8pOQ1FrDQfsCwkboArHXnkP0h3/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_0c72b292-f17d-4bad-b292-93747f8214df.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">AutonV3.1.mp4</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 1 day ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 3 days ago</span>
                     </p>
                 </a>
             </div>
@@ -3744,10 +3919,10 @@ Recognition single = bot.recognize(<span class="hljs-string">"Single"</span>);
                                                 <p><code class="inline-snippet">zeroPositionX</code> and <code class="inline-snippet">zeroPositionY</code> were measured by slowly and carefully driving the robot to the reset location before checking the odometry readings (which <code class="inline-snippet">DriveV2</code> now logs through telemetry). Since the wall should be aligned with the field, the heading (relative to the y-axis) must be 0.</p>
                                                 <p>Here's a video of the full system in action (we were still in the process of adjusting the shooting locations).</p>
                                                 <div style="display: flex">
-                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1h_0tFJw81PuumGz7uZXTFI5uix1bajbT/view?usp=drivesdk" style="background-image: url(static/img/drive/bg_17bdd583-3432-48bf-b808-ac1289331980.jpg)">
+                <a class="web-bookmark drive-preview" href="https://drive.google.com/file/d/1h_0tFJw81PuumGz7uZXTFI5uix1bajbT/view?usp=drivesdk" style="background-image: url(/static/img/drive/bg_17bdd583-3432-48bf-b808-ac1289331980.jpg)">
                     <p>
                         <span class="bookmark-title"><img src="static/saved_files/mp4">Position Control Shooting.mp4</span>
-                        <span class="bookmark-edited">Last edited by Isaac Krementsov 1 day ago</span>
+                        <span class="bookmark-edited">Last edited by Isaac Krementsov 2 days ago</span>
                     </p>
                 </a>
             </div>
