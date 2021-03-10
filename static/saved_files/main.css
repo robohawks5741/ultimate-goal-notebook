@@ -126,6 +126,14 @@ li.list-elem {
     .central-col .card {
         margin: 40px 20px !important;
     }
+
+    .jumbotron, .contents {
+        page-break-before: always;
+    }
+
+    .contents {
+        margin-top: 100px;
+    }
 }
 
 code:not(.inline-snippet) {
@@ -232,7 +240,7 @@ a.drive-preview p .bookmark-title {
 
 .contents .central-col > div {
     margin: auto;
-    width: 500px;
+    width: 600px;
 }
 
 .contents ul {
