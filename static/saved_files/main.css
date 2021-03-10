@@ -260,3 +260,9 @@ a.drive-preview p .bookmark-title {
 .contents h1 {
     margin: 20px auto;
 }
+
+h1.entry-sprint {
+    font-weight: normal !important;
+    font-style: italic;
+    color: #F44336;
+}
